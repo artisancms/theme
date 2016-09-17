@@ -1,0 +1,12 @@
+{
+    "name": "artisancms/theme",
+    "description": "A simple theming package for ArtisanCMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew huggins",
+            "email": "andrewhuggins@gmail.com"
+        }
+    ],
+    "require": {}
+}
