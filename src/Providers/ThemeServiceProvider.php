@@ -13,9 +13,6 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind('Theme', function ($app) {
-            return new ArtisanCMS\Theme\Theme();
-        });
         // if (! $this->app->routesAreCached()) {
         //     require __DIR__.'/../routes.php';
         // }
@@ -36,6 +33,8 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // $this->app->bind('Theme', function ($app) {
+        //     return new ArtisanCMS\Theme\Theme();
+        // });
     }
 }

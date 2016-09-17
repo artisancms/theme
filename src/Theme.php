@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace ArtisanCMS\Theme;
 
 use View;
 
