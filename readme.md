@@ -14,4 +14,9 @@ You will want to update the `artisancms.php` file in the config folder, again th
 
 Access like this:
 ```
-theme::nameoffile
+theme::folder.viewname
+
+// or
+
+theme::viewname
+```
