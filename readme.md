@@ -14,4 +14,4 @@ You will want to update the `articancms.php` file in the config folder, again th
 
 Access like this:
 ```
-theme::nameof
+theme::nameoffile
